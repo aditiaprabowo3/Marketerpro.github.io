@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(248, 255, 254) !important;
+}
+ul li{
+    padding: 0 13px;
+}
+ul li a{
+    font-weight: 500;
+    color: #000 !important;
+}
+.card-features {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+.card-blog{
+    margin: 20px 0;
+}
+.card-testi{
+    margin: 20px 0;
+}
+.card-work{
+    margin: 20px 0;
+}
+.card-work .overlay{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(127, 144, 255);
+    opacity: 0;
+}
+.card-features:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0,0.125);
+}
+.card-work:hover .overlay{
+    opacity: 1;
+    transition: all 2s ease;
+}
+.card-work{
+    margin: 20px 0;
+}
+footer .medsos i:hover{
+    color: rgb(0, 238, 202);
+}
+footer ul li{
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 300px and up) */
+@media (min-width: 200px) { 
+    .section-banner .text-content h1{
+        font-size: 5vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: 0px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: -10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 120px;
+        left: 30px;
+    }
+    .section-sponsor img{
+        width: 35%;
+        height: 35%;
+        margin: 10px;
+        position: relative;
+    }
+    .section-subcribe input{
+        padding: 15px 0px 15px 15px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 300px) { 
+    .section-banner .text-content h1{
+        font-size: 6vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content p{
+        font-size: 12px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+    }
+    .section-banner .text-content p{
+        font-size: 13px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: 0px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: 10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 120px;
+        left: -10px;
+    }
+    .section-sponsor img{
+        width: 35%;
+        height: 35%;
+        margin: 10px;
+        position: relative;
+    }
+    .section-content .text-content h2{
+        font-size: 21px;
+    }
+    .section-content .text-content p{
+        font-size: 11px;
+    }
+    .section-content .text-content{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .section-subcribe input{
+        padding: 15px 0px 15px 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) { 
+    .section-banner .text-content h1{
+        font-size: 8vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content p{
+        font-size: 14px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: 0px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: -10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 120px;
+        left: -30px;
+    }
+    .section-sponsor img{
+        width: 30%;
+        height: 30%;
+        margin: 10px;
+        position: relative;
+    }
+    .section-content .text-content h2{
+        font-size: 21px;
+    }
+    .section-content .text-content p{
+        font-size: 11px;
+    }
+    .section-content .text-content{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .section-subcribe input{
+        padding: 15px 200px 15px 15px;
+        margin-bottom: 20px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1{
+        font-size: 10vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: 0px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: -10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 120px;
+        left: -30px;
+    }
+    .section-sponsor img{
+        width: 23%;
+        height: 23%;
+        margin: 10px;
+        position: relative;
+    }
+    .section-content .text-content h2{
+        font-size: 21px;
+    }
+    .section-content .text-content p{
+        font-size: 11px;
+    }
+    .section-content .text-content{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .section-subcribe input{
+        padding: 15px 200px 15px 15px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1{
+        font-size: 8vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+        text-align: left;
+    }
+    .section-banner .img-content img{
+        width: 120%;
+        height: 120%;
+        margin-left: -50px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: -50px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: -10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 120px;
+        left: -30px;
+    }
+    .section-sponsor img{
+        width: 15%;
+        height: 15%;
+        margin: 0 20px;
+        position: relative;
+    }
+    .section-content .text-content h2{
+        font-size: 26px;
+    }
+    .section-content .text-content p{
+        font-size: 11px;
+    }
+    .section-content .text-content{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .section-subcribe input{
+        padding: 15px 400px 15px 15px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-size: 8vh;
+        font-weight: 600;
+    }
+    .section-banner .text-content{
+        margin-top: 120px;
+        text-align: left;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -100px;
+        position: relative;
+        z-index: 99;
+    }
+    .section-banner .img-content .kotak{
+        width: 90%;
+        height: 70%;
+        top: 120px;
+        left: -100px;
+        background-color: #fff;
+        box-shadow: 0 0px 30px rgba(0, 0, 0, 0.125);
+        border-radius: 70px;
+    }
+    .section-banner .img-content .send{
+        top: 110px;
+        left: -10px;
+    }
+    .section-banner .img-content .very{
+        bottom: 170px;
+        left: -120px;
+    }
+    .section-sponsor img{
+        width: 15%;
+        height: 15%;
+        margin: 0 20px;
+        position: relative;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-content .text-content{
+        margin-top: 80px;
+    }
+    .section-content .text-content h2{
+        font-size: 35px;
+    }
+    .section-content .text-content p{
+        font-size: 15px;
+    }
+    .section-content .text-content{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .section-subcribe input{
+        padding: 15px 400px 15px 15px;
+    }
+    .section-subcribe button{
+        border-radius: 0 30px 30px 0;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
